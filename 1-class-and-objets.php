@@ -72,6 +72,7 @@
 
     }
 
+    
     $v1 = new Voiture("Mercedes", "argentée", "190-D");
     $v1->setCouleur("noire");
     echo $v1->getDisplay();
