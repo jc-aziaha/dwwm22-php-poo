@@ -19,15 +19,45 @@
     }
 
     class Voiture extends Vehicule {
+        public function demarrer(): void {
+            echo "La voiture démarre";
+        }
 
+        public function rouler(): void {
+            echo "Le voiture roule";
+        }
+
+        public function freiner(): void {
+            echo "Le voiture freine";
+        }
     }
 
     class Moto extends Vehicule {
+        public function demarrer(): void {
+            echo "La moto démarre";
+        }
 
+        public function rouler(): void {
+            echo "Le moto roule";
+        }
+
+        public function freiner(): void {
+            echo "Le moto freine";
+        }
     }
 
     class Camion extends Vehicule {
+        public function demarrer(): void {
+            echo "Le camion démarre";
+        }
 
+        public function rouler(): void {
+            echo "Le camion roule";
+        }
+
+        public function freiner(): void {
+            echo "Le camion freine";
+        }
     }
 
     $voiture1 = new Voiture();
