@@ -1,5 +1,35 @@
 <?php
 
+    // class Ancestor {
+    //     public ?string $eyesColor = "bleue";
+    //     public ?string $hairColor = "marron";
+
+    //     public function sauter(): void {
+    //         echo "L'ancêtre saute";
+    //     }
+    // }
+
+    // class Enfant1 extends Ancestor {
+    //     public function sauter(): void {
+    //         echo "Je saute aussi haut que mon ancêtre.";
+    //     }
+    // }
+
+    // class Enfant2 extends Ancestor {
+    //     public ?string $eyesColor = "verte";
+    // }
+
+    // $enfant1 = new Enfant1();
+    // echo $enfant1->eyesColor;
+
+    // echo "<br>";
+    
+    // $enfant2 = new Enfant2();
+    // echo $enfant2->eyesColor;
+    // echo "<br>";
+
+    // ------------------------------------------------------------
+
     class Vehicule {
         public ?string $marque = null;
         public ?string $couleur = null;
@@ -20,7 +50,8 @@
 
     class Voiture extends Vehicule {
         public function demarrer(): void {
-            echo "La voiture démarre";
+            parent::demarrer();
+            echo "et la voiture démarre";
         }
 
         public function rouler(): void {
