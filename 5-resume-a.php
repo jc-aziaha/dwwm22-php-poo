@@ -89,33 +89,33 @@
 
     // ------------------------------------------------------------------------------------------------
     // 4. Le constructeur (fonction magique)
-    class Voiture {
-        private ?string $marque = null;
-        private ?string $couleur = null;
+    // class Voiture {
+    //     private ?string $marque = null;
+    //     private ?string $couleur = null;
 
-        public function __construct(string $marque, string $couleur)
-        {
-            $this->marque  = $marque;
-            $this->couleur = $couleur;
-        }
+    //     public function __construct(string $marque, string $couleur)
+    //     {
+    //         $this->marque  = $marque;
+    //         $this->couleur = $couleur;
+    //     }
 
-        public function getMarque(): string {
-            return $this->marque;
-        }
+    //     public function getMarque(): string {
+    //         return $this->marque;
+    //     }
 
-        public function setMarque(string $marque): void {
-            $this->marque = $marque;
-        }
+    //     public function setMarque(string $marque): void {
+    //         $this->marque = $marque;
+    //     }
 
-        public function getCouleur(): string {
-            return $this->couleur;
-        }
+    //     public function getCouleur(): string {
+    //         return $this->couleur;
+    //     }
 
-        public function setCouleur(string $couleur): void {
-            $this->couleur = $couleur;
-        }
-    }
+    //     public function setCouleur(string $couleur): void {
+    //         $this->couleur = $couleur;
+    //     }
+    // }
 
-    $voiture0 = new Voiture("Ferrari", "rouge");
-    echo $voiture0->getMarque();
+    // $voiture0 = new Voiture("Ferrari", "rouge");
+    // echo $voiture0->getMarque();
 
