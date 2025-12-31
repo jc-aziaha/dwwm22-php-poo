@@ -35,7 +35,11 @@
 
 
     // Classes concrêtes Chien, Chat
-    class Chien extends Animal {
+    final class Chien extends Animal {
+        
+    }
+
+    class Hello extends Chien {
         
     }
 

@@ -1,104 +1,104 @@
 <?php
 
 
-    class User {
+    // class User {
 
-        /**
-         * Ceci est l'identifiant de chaque utilisateur.
-         *
-         * @var null|integer
-         */
-        private ?int $id = null;
-
-
-        /**
-         * Ceci représente le prénom de chaque utilisateur.
-         *
-         * @var null|string
-         */
-        private ?string $firstName = null;
+    //     /**
+    //      * Ceci est l'identifiant de chaque utilisateur.
+    //      *
+    //      * @var null|integer
+    //      */
+    //     private ?int $id = null;
 
 
-        /**
-         * Ceci représente le nom de chaque utilisateur.
-         *
-         * @var null|string
-         */
-        private ?string $lastName = null;
+    //     /**
+    //      * Ceci représente le prénom de chaque utilisateur.
+    //      *
+    //      * @var null|string
+    //      */
+    //     private ?string $firstName = null;
 
 
-        /**
-         * Ceci représente l'email de chaque utilisateur.
-         *
-         * @var string
-         */
-        private ?string $email = null;
+    //     /**
+    //      * Ceci représente le nom de chaque utilisateur.
+    //      *
+    //      * @var null|string
+    //      */
+    //     private ?string $lastName = null;
 
 
-        /**
-         * Ceci représente le mot de passe de chaque utilisateur.
-         *
-         * @var string
-         */
-        private ?string $password = null;
+    //     /**
+    //      * Ceci représente l'email de chaque utilisateur.
+    //      *
+    //      * @var string
+    //      */
+    //     private ?string $email = null;
 
 
-        public function __construct(string $firstName, string $lastName, string $email, string $password)
-        {
-            $this->firstName = $firstName;
-            $this->lastName  = $lastName;
-            $this->email     = $email;
-            $this->password  = $password;
-        }
+    //     /**
+    //      * Ceci représente le mot de passe de chaque utilisateur.
+    //      *
+    //      * @var string
+    //      */
+    //     private ?string $password = null;
 
 
-        // -----------------------Accesseurs (getters)------------------------
-        public function getId(): int {
-            return $this->id;
-        }
+    //     public function __construct(string $firstName, string $lastName, string $email, string $password)
+    //     {
+    //         $this->firstName = $firstName;
+    //         $this->lastName  = $lastName;
+    //         $this->email     = $email;
+    //         $this->password  = $password;
+    //     }
 
-        public function getFirstName(): string {
-            return $this->firstName;
-        }
 
-        public function getLastName(): string {
-            return $this->lastName;
-        }
+    //     // -----------------------Accesseurs (getters)------------------------
+    //     public function getId(): int {
+    //         return $this->id;
+    //     }
 
-        public function getEmail(): string {
-            return $this->email;
-        }
+    //     public function getFirstName(): string {
+    //         return $this->firstName;
+    //     }
 
-        public function getPassword(): string {
-            return $this->password;
-        }
+    //     public function getLastName(): string {
+    //         return $this->lastName;
+    //     }
 
-        // -----------------------Mutateurs (setters)------------------------
-        public function setFirstName(string $firstName): void {
-            $this->firstName = $firstName;
-        }
+    //     public function getEmail(): string {
+    //         return $this->email;
+    //     }
 
-        public function setLastName(string $lastName): void {
-            $this->lastName = $lastName;
-        }
+    //     public function getPassword(): string {
+    //         return $this->password;
+    //     }
 
-        public function setEmail(string $email): void {
-            $this->email = $email;
-        }
+    //     // -----------------------Mutateurs (setters)------------------------
+    //     public function setFirstName(string $firstName): void {
+    //         $this->firstName = $firstName;
+    //     }
 
-        public function setPassword(string $password): void {
-            $this->password = $password;
-        }
-    }
+    //     public function setLastName(string $lastName): void {
+    //         $this->lastName = $lastName;
+    //     }
 
-    $user1 = new User("Picou", "Balthazar", "picsou@gmail.com", "pipi1234A*");
+    //     public function setEmail(string $email): void {
+    //         $this->email = $email;
+    //     }
 
-    $user1->setFirstName("Picsou");
+    //     public function setPassword(string $password): void {
+    //         $this->password = $password;
+    //     }
+    // }
+
+    // $user1 = new User("Picou", "Balthazar", "picsou@gmail.com", "pipi1234A*");
+
+    // $user1->setFirstName("Picsou");
     // $user1->setLastName("Balthazar");
     // $user1->setEmail("picsou@gmail.com");
     // $user1->setPassword("pipi1234A*");
 
-    echo "Les données de l'utilisateur: {$user1->getFirstName()} {$user1->getLastName()} <br>";
+    // echo "Les données de l'utilisateur: {$user1->getFirstName()} {$user1->getLastName()} <br>";
 
     // echo "<br>";
 
