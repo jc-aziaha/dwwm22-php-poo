@@ -43,15 +43,15 @@
 
     // class Vehicule {
     //     public function demarrer(): void {
-    //         echo "La véhicule démarre";
+    //         echo "Le véhicule démarre";
     //     } 
 
     //     public function rouler(): void {
-    //         echo "La véhicule roule";
+    //         echo "Le véhicule roule";
     //     }
 
     //     public function freiner(): void {
-    //         echo "La véhicule freine";
+    //         echo "Le véhicule freine";
     //     } 
     // }
 
@@ -102,67 +102,67 @@
     // ------------------------------------------------------------------------
     // 7. Les classes abstraites
 
-    abstract class Vehicule {
+    // abstract class Vehicule {
 
-        public null|string $marque = null;
-        public null|string $couleur = null;
+    //     protected null|string $marque = null;
+    //     protected null|string $couleur = null;
 
-        abstract public function demarrer(): void;
+    //     abstract public function demarrer(): void;
 
-        abstract public function rouler(): void;
+    //     abstract public function rouler(): void;
 
-        abstract public function freiner(): void;
+    //     abstract public function freiner(): void;
 
-        public function voler(): void {
-            echo "Le véhicule peut voler";
-        }
-    }
+    //     public function voler(): void {
+    //         echo "Le véhicule peut voler";
+    //     }
+    // }
 
-    class Voiture extends Vehicule {
+    // class Voiture extends Vehicule {
 
-        public null|string $marque = "Tesla";
-        public null|string $couleur = null;
+    //     protected null|string $marque = "Tesla";
+    //     protected null|string $couleur = null;
 
-        public function demarrer(): void {
-            echo "La voiture démarre";
-        } 
+    //     public function demarrer(): void {
+    //         echo "La voiture démarre";
+    //     } 
 
-        public function rouler(): void {
-            echo "La voiture roule";
-        }
+    //     public function rouler(): void {
+    //         echo "La voiture roule";
+    //     }
 
-        public function freiner(): void {
-            echo "La voiture freine";
-        } 
-    }
+    //     public function freiner(): void {
+    //         echo "La voiture freine";
+    //     } 
+    // }
 
-    class Moto extends Vehicule {
-        public function demarrer(): void {
-            echo "La moto démarre";
-        } 
+    // class Moto extends Vehicule {
+    //     public function demarrer(): void {
+    //         echo "La moto démarre";
+    //     } 
 
-        public function rouler(): void {
-            echo "La moto roule";
-        }
+    //     public function rouler(): void {
+    //         echo "La moto roule";
+    //     }
 
-        public function freiner(): void {
-            echo "La moto freine";
-        } 
-    }
+    //     public function freiner(): void {
+    //         echo "La moto freine";
+    //     } 
+    // }
 
-    class Camion extends Vehicule {
-        public function demarrer(): void {
-            echo "Le camion démarre";
-        } 
+    // class Camion extends Vehicule {
+    //     public function demarrer(): void {
+    //         echo "Le camion démarre";
+    //     } 
 
-        public function rouler(): void {
-            echo "Le camion roule";
-        }
+    //     public function rouler(): void {
+    //         echo "Le camion roule";
+    //     }
 
-        public function freiner(): void {
-            echo "Le camion freine";
-        } 
-    }
+    //     public function freiner(): void {
+    //         echo "Le camion freine";
+    //     } 
+    // }
     
     
 
